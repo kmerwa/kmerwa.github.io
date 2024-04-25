@@ -1,0 +1,17 @@
+.name-lbl{
+    font-size: 80px;
+    background: linear-gradient(to right, #3940f9, #6683e3, #0f1b44);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-me-btn{
+    display: flex;
+    padding: 20px;
+    border: 3px solid rgb(241, 174, 49);
+    color: rgb(241, 174, 49);
+    width: 200px;
+    justify-content: center;
+    border-radius: 12px;
+    cursor: pointer;
+}
