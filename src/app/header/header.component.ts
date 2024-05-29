@@ -9,4 +9,19 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  currentTheme : string = 'light';
+
+  toggleTheme(){
+    this.currentTheme = this.currentTheme === 'light' ? 'dark' : 'light';
+    document.body.setAttribute('data-theme', this.currentTheme);
+
+     const header = document.querySelector('.header') as HTMLElement;
+
+     if (this.currentTheme === 'light') {
+         header.style.backgroundColor = '#ffffff';
+     } else {
+         header.style.backgroundColor = '#1e1e1e';
+     }
+  }
+  
 }
