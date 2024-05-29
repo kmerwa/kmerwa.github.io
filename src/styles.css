@@ -14,3 +14,8 @@
     background-color: var(--dark-bg-color);
     color: #f0f0f0;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+}

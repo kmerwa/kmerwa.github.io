@@ -10,15 +10,4 @@ import { HeaderComponent } from '../header/header.component';
 })
 export class HomeComponent {
 
-  currentTheme : string = 'light';
-
-  toggleTheme(){
-    this.currentTheme = this.currentTheme === 'light' ? 'dark' : 'light';
-    document.body.setAttribute('data-theme', this.currentTheme);
-  }
-
-  // getCurrentTheme(){
-  //   return this.currentTheme;
-  // }
-
 }
